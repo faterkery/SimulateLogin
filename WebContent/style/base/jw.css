@@ -1,0 +1,26 @@
+/*=============Ä¬ÈÏ½á¹¹============*/
+@charset "utf-8";
+@import url(base.css);/*È«¾Ö¹«¹²»ù´¡ÑùÊ½*/
+@import url(module.css);/*Ä£¿é½á¹¹ÑùÊ½*/
+@import url(forms.css);/*±íµ¥±í¸ñÑùÊ½*/
+@import url(page.css);/*ÌØÊâÒ³ÃæÑùÊ½*/
+/*=============Ä¬ÈÏ½á¹¹============*/
+/*=========ÎÞ×ó±ßµ¼º½Çé¿ö=========*/
+#mainDiv{
+	_padding-left:5px;
+}
+#leftDiv{	
+	display:none;
+}
+#mainDiv>#rightDiv{
+	left:5px;
+}
+#bodyDiv {
+	_padding-top:105px;
+}
+#headDiv{
+	height:105px;
+}
+#bodyDiv>#mainDiv {
+	top:105px;
+}
